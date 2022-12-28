@@ -1,0 +1,21 @@
+{
+  "name": "repka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-script .",
+    "test": "jest ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "ts-node": "^10.9.1"
+  }
+}
