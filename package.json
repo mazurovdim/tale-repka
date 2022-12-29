@@ -2,13 +2,13 @@
   "name": "repka",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "ts-node-script .",
     "test": "jest ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Dmitriy",
   "license": "ISC",
   "dependencies": {
     "ts-jest": "^29.0.3",

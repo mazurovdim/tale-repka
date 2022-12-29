@@ -1,7 +1,7 @@
 import data from "./data"
-import { Person, Gender } from "./types"
+import { Person } from "./types"
 
-class Story {
+export default class Story {
 
     #data: Person[]
     #last: number = 1
@@ -18,8 +18,11 @@ class Story {
                 pers.previous = data[i - 1]
                 if (i != arr.length - 1) pers.next = data[i + 1]
             }
-            if (i === 1) console.log(data[i].next)
         })
+    }
+
+    getPerson(n: number):Person{
+        return this.#data[n]
     }
 
     refrain(){
